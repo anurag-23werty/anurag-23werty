@@ -1,6 +1,6 @@
-#<div align="center">
+<div align="center">
 
-<img src="Assets/output.gif" alt="Anurag Choudhury" width="100%" />
+<img src="assets/output.gif" alt="Anurag Choudhury" width="100%" />
 
 </div>
 
