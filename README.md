@@ -1,19 +1,6 @@
-<p align="center">
-<img src="assets/output.gif" alt="Anurag Choudhury" width="100%">
-</p>
-
-<p align="center">
-<a href="https://personal-portfolio-swart-pi-92.vercel.app"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/hero.svg" alt="ANURAG CHOUDHURY, AI/ML ENGINEER · BHUBANESWAR. EDGE: Agentic AI, RAG and graph-aware LLM systems; BUILD: Telemetry -&gt; detectors -&gt; explained alerts; DATA: PostgreSQL warehouses, ETL, star schemas; EDU: B.Tech CSE (AI &amp; ML), OUTR · CGPA 9.26; NOW: Open to AI/ML engineering internships, 2027" width="100%"></a>
-<a href="https://personal-portfolio-swart-pi-92.vercel.app"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/key-0.svg" alt="Portfolio: terminal site" width="20%"></a><a href="https://www.linkedin.com/in/anurag-choudhury-63a780206/"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/key-1.svg" alt="LinkedIn: in/anurag-choudhury" width="20%"></a><a href="mailto:24110387@outr.ac.in"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/key-2.svg" alt="Email: Drop me a line" width="20%"></a><a href="https://www.instagram.com/anurag_23y/"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/key-3.svg" alt="Instagram: @anurag_23y" width="20%"></a><a href="https://github.com/anurag-23werty?tab=followers"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/key-4.svg" alt="GitHub stars and followers" width="20%"></a>
-<a href="https://github.com/anurag-23werty?tab=repositories&amp;sort=stargazers"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/strip-work.svg" alt="Section 2: selected work" width="100%"></a>
-<a href="https://github.com/anurag-23werty/sql-data-warehouse-project"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/work-0.svg" alt="sql-data-warehouse-project: PostgreSQL medallion data warehouse" width="50%"></a><a href="https://github.com/anurag-23werty/SatPred"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/work-1.svg" alt="SatPred: Explainable satellite health monitoring" width="50%"></a>
-<a href="https://github.com/anurag-23werty/FastFrame"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/work-2.svg" alt="FastFrame: Finds slow pandas code, rewrites it safely" width="50%"></a><a href="https://github.com/anurag-23werty/VulnGraph"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/work-3.svg" alt="VulnGraph: Graph-aware vulnerability triage agent" width="50%"></a>
-<img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/strip-lab.svg" alt="Section 3: lab" width="100%">
-<img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/regime.svg" alt="Regime monitor: rule-based market state signals" width="100%">
-<img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/risk.svg" alt="Cross-asset realized volatility, drawdown and correlation" width="100%">
-<img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/derivatives.svg" alt="Options ATM implied vol term structure and perpetual funding" width="100%">
-<img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/strip-flow.svg" alt="Section 4: flow" width="100%">
-<img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/activity.svg" alt="Commit volume profile by hour and weekday" width="100%">
-<img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/snake.svg" alt="Contribution grid" width="100%">
-<a href="https://github.com/anurag-23werty?tab=repositories&amp;sort=updated"><img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/recent.svg" alt="Recently pushed repositories" width="100%"></a>
-</p>
+<a href="https://personal-portfolio-swart-pi-92.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/main/dark_mode.svg">
+    <img alt="neofetch-style card for Anurag Choudhury: ASCII art portrait beside OS, uptime, host, stack, projects, contact and GitHub stats" src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/main/light_mode.svg">
+  </picture>
+</a>

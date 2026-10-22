@@ -1,0 +1,43 @@
+name: neofetch
+
+# Re-renders dark_mode.svg / light_mode.svg with fresh GitHub stats and uptime.
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [neofetch/**, requirements.txt, .github/workflows/neofetch.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: neofetch
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Render card
+        env:
+          # The default token reads public data; add a PROFILE_TOKEN secret (classic PAT, read:user)
+          # to include private contributions.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+        run: python neofetch/build.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg neofetch/stats.json
+          git diff --cached --quiet && exit 0
+          git commit -m "neofetch: refresh stats [skip ci]"
+          git pull --rebase && git push
