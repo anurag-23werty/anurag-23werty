@@ -61,18 +61,6 @@ Alongside it, a multimodal pipeline that checks insurance claims against their p
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/svg/h-trail-dark.svg" />
-  <img src="assets/svg/h-trail-light.svg" alt="Contribution trail" width="100%" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/snake-light.svg" alt="A snake working through my contribution graph" width="100%" />
-</picture>
-
-<br/>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/svg/h-contact-dark.svg" />
   <img src="assets/svg/h-contact-light.svg" alt="Get in touch" width="100%" />
 </picture>
