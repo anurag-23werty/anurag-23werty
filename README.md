@@ -1,90 +1,80 @@
-Readme · MD
-<div align="center"> <img src="assets/output.gif" alt="Anurag Choudhury" width="100%" /> <a href="https://github.com/anurag-23werty"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Anurag+%F0%9F%91%8B;I+build+ML+systems+that+actually+ship;LLM+Agents+%C2%B7+MLOps+%C2%B7+Data+Engineering;Open+to+AI%2FML+internships+%E2%80%94+Summer+2027" alt="Typing intro" /> </a> <br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/svg/hero-dark.svg" />
+  <img src="assets/svg/hero-light.svg" alt="Anurag Choudhury. I build ML systems that notice when the world changes." width="100%" />
+</picture>
 
-LinkedIn Email PyPI Show Image
+<br/>
 
-</div>
-$ whoami
-yaml
-name        : Anurag Choudhury
-education   : B.Tech CSE (AI/ML) @ OUTR Bhubaneswar · 2024–2028
-experience  : AI/ML Intern @ iplairani.com (Jun–Aug 2026)
-i_build     :
-  - LLM agents that do real work (LangGraph, tool-calling, MCP, RAG)
-  - ML pipelines that survive production (drift, retraining, monitoring)
-  - Data systems that scale (SQL warehouses, ETL, medallion architecture)
-looking_for : AI Engineer / ML Engineer / Data Scientist internships · Summer 2027
-🚀 Featured Projects
-<table> <tr> <td width="50%" valign="top">
-⚡ FastFrame
+Most models are trained once and quietly decay. I'm interested in the part after the notebook: pipelines that catch drift, agents that do real work, and data systems that hold up when the inputs get messy. I study AI/ML at OUTR Bhubaneswar, spent summer 2026 as an ML intern at iplairani, and I'm looking for AI/ML engineering or data science internships for summer 2027.
 
-Finds slow pandas/NumPy code, rewrites only provably safe patterns, and verifies the output matches — up to 332× faster.
+[LinkedIn](https://www.linkedin.com/in/anurag-choudhury-63a780206/) &nbsp;&nbsp; [Email](mailto:24110387@outr.ac.in) &nbsp;&nbsp; [FastFrame on PyPI](https://pypi.org/project/fastframe-pandas/)
 
-LibCST pandas NumPy Docker
+<br/>
 
-PyPI
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/svg/h-built-dark.svg" />
+  <img src="assets/svg/h-built-light.svg" alt="Things I've built" width="100%" />
+</picture>
 
-</td> <td width="50%" valign="top">
-🔐 VulnGraph
+**[FastFrame](https://github.com/anurag-23werty/FastFrame)**<br/>
+Finds slow pandas and NumPy code, rewrites only the patterns it can prove are safe, and checks the output still matches. Up to 332× faster. Install it with `pip install fastframe-pandas`.<br/>
+<sub>LibCST, pandas, NumPy, Docker</sub>
 
-Graph-aware CVE triage agent that ranks vulnerabilities by real attack paths, not CVSS score alone.
+**[VulnGraph](https://github.com/anurag-23werty/VulnGraph)**<br/>
+A vulnerability triage agent that ranks CVEs by the attack paths that actually reach your assets, not by CVSS score alone. [Try the live demo](https://vulngraph-oit9.onrender.com).<br/>
+<sub>LangGraph, FalkorDB, FastMCP, Groq</sub>
 
-LangGraph FalkorDB FastMCP Groq
+**[SatPred](https://github.com/anurag-23werty/SatPred)**<br/>
+Early anomaly detection on NASA SMAP and MSL satellite telemetry. Every alert names the channel that failed and when it started.<br/>
+<sub>PyTorch, scikit-learn, FastAPI</sub>
 
-Live Demo
+**[SQLYapper](https://github.com/anurag-23werty/SQLYapper)**<br/>
+Ask a SQL database questions in plain English. The agent reads the schema, plans the query, runs it and explains the answer.<br/>
+<sub>LangGraph, Groq, SQL</sub>
 
-</td> </tr> <tr> <td width="50%" valign="top">
-🛰️ SatPred
+**[SQL Data Warehouse](https://github.com/anurag-23werty/sql-data-warehouse-project)**<br/>
+CRM and ERP exports cleaned through bronze, silver and gold layers into a star schema, with a [live analytics dashboard](https://sql-data-analytics-project.vercel.app/) on top.<br/>
+<sub>PostgreSQL, PL/pgSQL, Python</sub>
 
-Explainable satellite health monitoring — early anomaly detection on NASA SMAP/MSL telemetry, with alerts that say what broke and when.
+<br/>
 
-PyTorch scikit-learn FastAPI
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/svg/h-bench-dark.svg" />
+  <img src="assets/svg/h-bench-light.svg" alt="On the bench right now" width="100%" />
+</picture>
 
-</td> <td width="50%" valign="top">
-💬 SQLYapper
+**AdaptML** is the idea in the banner, made real: a production model that retrains itself when its data or performance drifts, with an agent deciding *when* to retrain instead of a fixed threshold.
 
-Chat with your SQL database in plain English — an agent that plans, writes and runs queries, with user auth.
+Alongside it, a multimodal pipeline that checks insurance claims against their photos, and a few hackathon builds in sports analytics and agentic AI.
 
-LangGraph Groq SQL Python
+<br/>
 
-</td> </tr> <tr> <td colspan="2" valign="top">
-🏛️ SQL Data Warehouse
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/svg/h-tools-dark.svg" />
+  <img src="assets/svg/h-tools-light.svg" alt="Tools I reach for" width="100%" />
+</picture>
 
-End-to-end warehouse: CRM + ERP CSVs → Bronze → Silver → Gold star schema, with a live analytics dashboard.
+**Every day:** Python, SQL, pandas, NumPy, scikit-learn, PyTorch<br/>
+**Agents and LLMs:** LangChain, LangGraph, Hugging Face, RAG, MCP<br/>
+**Shipping it:** FastAPI, Docker, GitHub Actions, PostgreSQL, Linux, Render
 
-PostgreSQL PL/pgSQL Python Medallion Architecture
+<br/>
 
-</td> </tr> </table> <details> <summary><b>🔍 Click to see how these projects are engineered</b></summary> <br/>
-Project	Hardest problem solved	How
-FastFrame	Rewriting user code without breaking it	AST-level transforms with LibCST + output-equivalence checks before accepting a rewrite
-VulnGraph	CVSS ignores reachability	Models assets and CVEs as a graph; the agent scores exploitability along actual attack paths
-SatPred	Anomaly alerts nobody can act on	Pairs detection with per-channel explanations so alerts point to the failing signal
-SQLYapper	LLMs writing wrong/unsafe SQL	Multi-step LangGraph agent: schema lookup → query plan → execution → answer
-SQL Warehouse	Messy multi-source data	Layered medallion design with cleaning in Silver and a modelled star schema in Gold
-</details>
-🔭 Currently Building
-🔁 AdaptML — an MLOps pipeline where the production model retrains itself on data/model drift, with an agent deciding when to retrain instead of a fixed threshold
-🧠 Multimodal VLM pipeline for insurance claim verification
-🏆 Hackathons — sports analytics, agentic AI, developer tools
-🛠️ Tech Stack
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/svg/h-trail-dark.svg" />
+  <img src="assets/svg/h-trail-light.svg" alt="Contribution trail" width="100%" />
+</picture>
 
-Languages & Backend<br/> <img src="https://skillicons.dev/icons?i=py,fastapi,django,postgres,sqlite,mongodb,redis&theme=dark" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/snake-light.svg" alt="A snake working through my contribution graph" width="100%" />
+</picture>
 
-ML · GenAI<br/> <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" /> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="48" /> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" height="48" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="48" />
+<br/>
 
-MLOps · Cloud · Tools<br/> <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,git,vscode&theme=dark" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/svg/h-contact-dark.svg" />
+  <img src="assets/svg/h-contact-light.svg" alt="Get in touch" width="100%" />
+</picture>
 
-Frontend & Viz<br/> <img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" />
-
-</div>
-📊 GitHub Activity
-<div align="center"> <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" /> <br/> <img src="profile/stats.svg" height="165" alt="GitHub stats" /> <img src="profile/top-langs.svg" height="165" alt="Top languages" /> <br/> <img src="https://streak-stats.demolab.com?user=anurag-23werty&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="Streak stats" /> <br/> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/github-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/github-snake.svg" /> <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/github-snake.svg" /> </picture> </div>
-<div align="center">
-🤝 Hiring for AI/ML or Data roles? Let's talk.
-
-Say hello on LinkedIn Drop an Email
-
-<sub><i>"When it feels scary to jump, that's exactly when you jump."</i></sub>
-
-</div>
+Hiring for an AI/ML or data role, or building something with agents or MLOps? [Message me on LinkedIn](https://www.linkedin.com/in/anurag-choudhury-63a780206/) or [send an email](mailto:24110387@outr.ac.in).
