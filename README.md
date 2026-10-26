@@ -1,205 +1,90 @@
-<div align="center">
+Readme · MD
+<div align="center"> <img src="assets/output.gif" alt="Anurag Choudhury" width="100%" /> <a href="https://github.com/anurag-23werty"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Anurag+%F0%9F%91%8B;I+build+ML+systems+that+actually+ship;LLM+Agents+%C2%B7+MLOps+%C2%B7+Data+Engineering;Open+to+AI%2FML+internships+%E2%80%94+Summer+2027" alt="Typing intro" /> </a> <br/>
 
-<img src="assets/output.gif" alt="Anurag Choudhury" width="100%" />
-
-</div>
-
----
-
-<div align="center">
-
-# Anurag Choudhury
-
-### AI/ML Engineer · Data Scientist · MLOps & GenAI Enthusiast
-
-> *"When it feels scary to jump, that's exactly when you jump."*
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anurag-23werty)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anurag-choudhury-63a780206/)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/anurag_23y/)
-[![Email](https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:24110387@outr.ac.in)
+LinkedIn Email PyPI Show Image
 
 </div>
-
----
-
-## `$ whoami`
-
-```yaml
+$ whoami
+yaml
 name        : Anurag Choudhury
-role        : AI/ML Engineer | Data Scientist | Data Analyst
-institute   : Odisha University of Technology & Research (OUTR), Bhubaneswar
-focus_areas :
-  - Generative AI & LLM Engineering (LangChain, LangGraph, RAG pipelines)
-  - Multi-agent systems & Agentic workflows
-  - Data Engineering (SQL, Medallion Architecture, ETL pipelines)
-  - MLOps · Docker · Model deployment
-  - Data Analysis & Storytelling
-currently   : Building portfolio projects targeting AI engineering internships
-ask_me_about: [LangChain, RAG, multi-agent systems, SQL, Python, data viz]
-```
+education   : B.Tech CSE (AI/ML) @ OUTR Bhubaneswar · 2024–2028
+experience  : AI/ML Intern @ iplairani.com (Jun–Aug 2026)
+i_build     :
+  - LLM agents that do real work (LangGraph, tool-calling, MCP, RAG)
+  - ML pipelines that survive production (drift, retraining, monitoring)
+  - Data systems that scale (SQL warehouses, ETL, medallion architecture)
+looking_for : AI Engineer / ML Engineer / Data Scientist internships · Summer 2027
+🚀 Featured Projects
+<table> <tr> <td width="50%" valign="top">
+⚡ FastFrame
 
----
+Finds slow pandas/NumPy code, rewrites only provably safe patterns, and verifies the output matches — up to 332× faster.
 
-## ⚡ Currently Building
+LibCST pandas NumPy Docker
 
+PyPI
+
+</td> <td width="50%" valign="top">
+🔐 VulnGraph
+
+Graph-aware CVE triage agent that ranks vulnerabilities by real attack paths, not CVSS score alone.
+
+LangGraph FalkorDB FastMCP Groq
+
+Live Demo
+
+</td> </tr> <tr> <td width="50%" valign="top">
+🛰️ SatPred
+
+Explainable satellite health monitoring — early anomaly detection on NASA SMAP/MSL telemetry, with alerts that say what broke and when.
+
+PyTorch scikit-learn FastAPI
+
+</td> <td width="50%" valign="top">
+💬 SQLYapper
+
+Chat with your SQL database in plain English — an agent that plans, writes and runs queries, with user auth.
+
+LangGraph Groq SQL Python
+
+</td> </tr> <tr> <td colspan="2" valign="top">
+🏛️ SQL Data Warehouse
+
+End-to-end warehouse: CRM + ERP CSVs → Bronze → Silver → Gold star schema, with a live analytics dashboard.
+
+PostgreSQL PL/pgSQL Python Medallion Architecture
+
+</td> </tr> </table> <details> <summary><b>🔍 Click to see how these projects are engineered</b></summary> <br/>
+Project	Hardest problem solved	How
+FastFrame	Rewriting user code without breaking it	AST-level transforms with LibCST + output-equivalence checks before accepting a rewrite
+VulnGraph	CVSS ignores reachability	Models assets and CVEs as a graph; the agent scores exploitability along actual attack paths
+SatPred	Anomaly alerts nobody can act on	Pairs detection with per-channel explanations so alerts point to the failing signal
+SQLYapper	LLMs writing wrong/unsafe SQL	Multi-step LangGraph agent: schema lookup → query plan → execution → answer
+SQL Warehouse	Messy multi-source data	Layered medallion design with cleaning in Silver and a modelled star schema in Gold
+</details>
+🔭 Currently Building
+🔁 AdaptML — an MLOps pipeline where the production model retrains itself on data/model drift, with an agent deciding when to retrain instead of a fixed threshold
+🧠 Multimodal VLM pipeline for insurance claim verification
+🏆 Hackathons — sports analytics, agentic AI, developer tools
+🛠️ Tech Stack
 <div align="center">
 
-| 🔭 | Multimodal VLM pipeline (insurance claim verification) |
-|---|---|
-| 🌱 | Deepening LangGraph, MLOps, system design |
-| 🏆 | Competing in ML/AI hackathons (Zindi, HackerRank, Kaggle) |
-| 📊 | Interactive data analytics dashboards & case competitions |
-| 🤖 | Multi-agent RAG systems with LangChain + LangGraph |
-| 🐳 | Dockerized ML environments & OpenEnv-compliant simulations |
-| 📝 | Writing about AI/ML on LinkedIn |
+Languages & Backend<br/> <img src="https://skillicons.dev/icons?i=py,fastapi,django,postgres,sqlite,mongodb,redis&theme=dark" />
+
+ML · GenAI<br/> <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" /> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="48" /> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" height="48" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="48" />
+
+MLOps · Cloud · Tools<br/> <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,git,vscode&theme=dark" />
+
+Frontend & Viz<br/> <img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" />
 
 </div>
-
----
-
-## 🛠️ Tech Stack
-
-### 🐍 Backend & Core Languages
-
+📊 GitHub Activity
+<div align="center"> <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" /> <br/> <img src="profile/stats.svg" height="165" alt="GitHub stats" /> <img src="profile/top-langs.svg" height="165" alt="Top languages" /> <br/> <img src="https://streak-stats.demolab.com?user=anurag-23werty&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="Streak stats" /> <br/> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/github-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/github-snake.svg" /> <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/anurag-23werty/anurag-23werty/output/github-snake.svg" /> </picture> </div>
 <div align="center">
+🤝 Hiring for AI/ML or Data roles? Let's talk.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+Say hello on LinkedIn Drop an Email
 
-</div>
+<sub><i>"When it feels scary to jump, that's exactly when you jump."</i></sub>
 
-### 🤖 AI · ML · GenAI
-
-<div align="center">
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-</div>
-
-### ☁️ Cloud · DevOps · MLOps
-
-<div align="center">
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
-### 🗄️ Databases & Data Engineering
-
-<div align="center">
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-
-</div>
-
-### 🎨 Frontend & Visualization
-
-<div align="center">
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-
-</div>
-
-### 🔧 Tools & Workflow
-
-<div align="center">
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anurag-23werty&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anurag-23werty&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anurag-23werty&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=anurag-23werty&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
-
-</div>
-
----
-
-## 🏗️ Featured Projects
-
-<div align="center">
-
-| Project | Stack | What it does |
-|---|---|---|
-| 🏛️ **[SQL Data Warehouse](https://github.com/anurag-23werty/sql-data-warehouse-project)** | PostgreSQL · PL/pgSQL · Python · Medallion Architecture | End-to-end warehouse: CRM + ERP CSVs → Bronze → Silver → Gold star schema, with a [live dashboard](https://sql-data-analytics-project.vercel.app/) |
-| 🛰️ **[SatPred](https://github.com/anurag-23werty/SatPred)** | Python · PyTorch · FastAPI · scikit-learn | Explainable satellite health monitoring: early anomaly detection on NASA SMAP/MSL telemetry with alerts that say what broke and when |
-| ⚡ **[FastFrame](https://github.com/anurag-23werty/FastFrame)** | Python · LibCST · pandas · NumPy · Docker | Finds slow pandas/NumPy code, rewrites only safe patterns and verifies the output (up to 332× faster), on [PyPI](https://pypi.org/project/fastframe-pandas/) |
-| 🔐 **[VulnGraph](https://github.com/anurag-23werty/VulnGraph)** | FalkorDB · LangGraph · FastMCP · Groq | Graph-aware vulnerability triage agent that ranks CVEs by real attack paths instead of CVSS alone, [live demo](https://vulngraph-oit9.onrender.com) |
-
-</div>
-
----
-
-## 🎯 What I'm Targeting
-
-```python
-internship_targets = {
-    "roles"     : ["AI Engineer", "ML Engineer", "Data Scientist", "Data Analyst"],
-    "domains"   : ["GenAI", "MLOps", "Data Engineering", "LLM Applications"],
-    "open_to"   : ["startups", "research labs", "product companies"],
-    "timeline"  : "2025 summer / fall",
-}
-```
-
----
-
-<div align="center">
-
-### 🤝 Let's connect and build something that matters.
-
-[![LinkedIn](https://img.shields.io/badge/Say_Hello_on_LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anurag-choudhury-63a780206/)
-[![Email](https://img.shields.io/badge/Drop_an_Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:24110387@outr.ac.in)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=anurag-23werty&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
-
----
-
-<div align="center">
-<sub>Built with intention · Deployed with ambition · Updated constantly</sub>
 </div>
