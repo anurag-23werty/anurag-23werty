@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="270" viewBox="0 0 520 270" role="img" aria-label="ChurnGuard: Churn prediction + expected-value retention on KKBox: point-in-time features, calibrated model, API, consoles and monitoring.">
+<style>
+    .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;} .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
+    .in{animation:fade .7s ease-out backwards;}
+    @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+    .glow{animation:glow 3.2s ease-in-out infinite;}
+    @keyframes glow{0%,100%{stroke-opacity:.35}50%{stroke-opacity:.9}}
+    .accent{fill:#9B8CFF;}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+    
+.roc{stroke-dasharray:260;stroke-dashoffset:0;animation:draw 5s ease-out infinite;}
+@keyframes draw{0%{stroke-dashoffset:260}55%,100%{stroke-dashoffset:0}}
+</style>
+<rect x="1" y="1" width="518" height="268" rx="16" fill="#0D1424" stroke="#1F2B45" stroke-width="1.5"/>
+<rect x="1" y="1" width="518" height="268" rx="16" fill="none" stroke="#9B8CFF" stroke-width="1.5" class="glow"/>
+<circle cx="34" cy="34" r="4" class="accent"/>
+<text class="m" x="46" y="38" font-size="11" letter-spacing="1.4" fill="#9B8CFF">END-TO-END ML · DATA ENGINEERING</text>
+<text class="t" x="28" y="76" font-size="27" font-weight="700" fill="#E6EDF3">ChurnGuard</text>
+<text class="t" x="28" y="104" font-size="14" fill="#9FB0C3">Churn prediction + expected-value retention</text><text class="t" x="28" y="124" font-size="14" fill="#9FB0C3">on KKBox: point-in-time features, calibrated</text><text class="t" x="28" y="144" font-size="14" fill="#9FB0C3">model, API, consoles and monitoring.</text>
+<g class="in" style="animation-delay:0.35s"><text class="t" x="28" y="200" font-size="24" font-weight="700" fill="#E6EDF3">410M</text><text class="m" x="28" y="219" font-size="11" fill="#5F7089">rows ingested</text></g><g class="in" style="animation-delay:0.53s"><text class="t" x="146" y="200" font-size="24" font-weight="700" fill="#E6EDF3">0.896</text><text class="m" x="146" y="219" font-size="11" fill="#5F7089">out-of-time AUC</text></g><g class="in" style="animation-delay:0.71s"><text class="t" x="264" y="200" font-size="24" font-weight="700" fill="#E6EDF3">1M / 19s</text><text class="m" x="264" y="219" font-size="11" fill="#5F7089">members scored</text></g>
+<line x1="28" y1="236" x2="492" y2="236" stroke="#1F2B45"/>
+<text class="m" x="28" y="255" font-size="11.5" fill="#5F7089">DuckDB · LightGBM · MLflow · FastAPI · React · Docker</text>
+<g transform="translate(330,24)">
+<line x1="10" y1="140" x2="160" y2="140" stroke="#5F7089"/>
+<line x1="10" y1="140" x2="10" y2="10" stroke="#5F7089"/>
+<line x1="10" y1="140" x2="160" y2="10" stroke="#5F7089" stroke-dasharray="3 4"/>
+<path d="M10 140 C 14 60, 40 28, 90 18 S 150 11, 160 10" fill="none" stroke="#9B8CFF" stroke-width="2.5" class="roc"/>
+<path d="M10 140 C 14 60, 40 28, 90 18 S 150 11, 160 10 L160 140 Z" fill="#9B8CFF" opacity=".10"/>
+<text class="m" x="70" y="100" font-size="12" fill="#E6EDF3">AUC 0.896</text>
+<text class="m" x="70" y="116" font-size="10" fill="#5F7089">out-of-time</text>
+</g>
+</svg>

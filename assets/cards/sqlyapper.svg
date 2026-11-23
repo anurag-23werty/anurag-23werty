@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="270" viewBox="0 0 520 270" role="img" aria-label="SQLYapper: Ask your data questions in plain English. LLM-drafted SQL never hits the database: an AST guard rebuilds it from a safe tree.">
+<style>
+    .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;} .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
+    .in{animation:fade .7s ease-out backwards;}
+    @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+    .glow{animation:glow 3.2s ease-in-out infinite;}
+    @keyframes glow{0%,100%{stroke-opacity:.35}50%{stroke-opacity:.9}}
+    .accent{fill:#4ADE80;}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+    
+.rej{animation:rej 3.2s steps(1) infinite;}
+@keyframes rej{0%,50%{opacity:0}55%,75%{opacity:1}80%,100%{opacity:0}}
+</style>
+<rect x="1" y="1" width="518" height="268" rx="16" fill="#0D1424" stroke="#1F2B45" stroke-width="1.5"/>
+<rect x="1" y="1" width="518" height="268" rx="16" fill="none" stroke="#4ADE80" stroke-width="1.5" class="glow"/>
+<circle cx="34" cy="34" r="4" class="accent"/>
+<text class="m" x="46" y="38" font-size="11" letter-spacing="1.4" fill="#4ADE80">LLM AGENT · GUARDRAILS</text>
+<text class="t" x="28" y="76" font-size="27" font-weight="700" fill="#E6EDF3">SQLYapper</text>
+<text class="t" x="28" y="104" font-size="14" fill="#9FB0C3">Ask your data questions in plain English.</text><text class="t" x="28" y="124" font-size="14" fill="#9FB0C3">LLM-drafted SQL never hits the database:</text><text class="t" x="28" y="144" font-size="14" fill="#9FB0C3">an AST guard rebuilds it from a safe tree.</text>
+<g class="in" style="animation-delay:0.35s"><text class="t" x="28" y="200" font-size="24" font-weight="700" fill="#E6EDF3">AST</text><text class="m" x="28" y="219" font-size="11" fill="#5F7089">SQL guard</text></g><g class="in" style="animation-delay:0.53s"><text class="t" x="146" y="200" font-size="24" font-weight="700" fill="#E6EDF3">CI</text><text class="m" x="146" y="219" font-size="11" fill="#5F7089">red-team evals</text></g><g class="in" style="animation-delay:0.71s"><text class="t" x="264" y="200" font-size="24" font-weight="700" fill="#E6EDF3">OTel</text><text class="m" x="264" y="219" font-size="11" fill="#5F7089">traced per step</text></g>
+<line x1="28" y1="236" x2="492" y2="236" stroke="#1F2B45"/>
+<text class="m" x="28" y="255" font-size="11.5" fill="#5F7089">LangGraph · Groq · SQLite · FastAPI · Prometheus</text>
+<g transform="translate(330,24)"><path id="sqlp" d="M20 14 V122" stroke="#1F2B45" stroke-width="2"/><circle cx="20" cy="14" r="7" fill="#0D1424" stroke="#3DD9E3" stroke-width="2"/><text class="m" x="38" y="18" font-size="11.5" fill="#E6EDF3">question</text><circle cx="20" cy="50" r="7" fill="#0D1424" stroke="#3DD9E3" stroke-width="2"/><text class="m" x="38" y="54" font-size="11.5" fill="#E6EDF3">LLM draft</text><circle cx="20" cy="86" r="7" fill="#0D1424" stroke="#F0A93B" stroke-width="2"/><text class="m" x="38" y="90" font-size="11.5" fill="#E6EDF3">AST guard</text><circle cx="20" cy="122" r="7" fill="#0D1424" stroke="#3DD9E3" stroke-width="2"/><text class="m" x="38" y="126" font-size="11.5" fill="#E6EDF3">fresh SQL</text>
+<text class="m rej" x="110" y="90" font-size="10" fill="#FF6B6B">✗ DROP</text>
+<circle cx="20" cy="14" r="4" fill="#4ADE80"><animateMotion dur="3.2s" repeatCount="indefinite" path="M0 0 V108"/></circle>
+<text class="m" x="0" y="148" font-size="10" fill="#5F7089">read-only · allowlist</text>
+</g>
+</svg>

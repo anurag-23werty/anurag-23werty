@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="270" viewBox="0 0 520 270" role="img" aria-label="SatPred: Explainable anomaly detection on NASA SMAP/MSL telemetry. Every alert names the channel and when it started.">
+<style>
+    .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;} .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
+    .in{animation:fade .7s ease-out backwards;}
+    @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+    .glow{animation:glow 3.2s ease-in-out infinite;}
+    @keyframes glow{0%,100%{stroke-opacity:.35}50%{stroke-opacity:.9}}
+    .accent{fill:#F0A93B;}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+    
+.scan{animation:scan 4s linear infinite;}
+@keyframes scan{from{transform:translateX(0)}to{transform:translateX(160px)}}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 4s ease-out infinite;}
+@keyframes ping{0%,55%{opacity:0;transform:scale(.4)}62%{opacity:1;transform:scale(1.3)}100%{opacity:.25;transform:scale(1)}}
+.alert,.zone{animation:alert 4s ease-out infinite;}
+@keyframes alert{0%,58%{opacity:0}66%,100%{opacity:1}}
+</style>
+<rect x="1" y="1" width="518" height="268" rx="16" fill="#0D1424" stroke="#1F2B45" stroke-width="1.5"/>
+<rect x="1" y="1" width="518" height="268" rx="16" fill="none" stroke="#F0A93B" stroke-width="1.5" class="glow"/>
+<circle cx="34" cy="34" r="4" class="accent"/>
+<text class="m" x="46" y="38" font-size="11" letter-spacing="1.4" fill="#F0A93B">ANOMALY DETECTION · TIME SERIES</text>
+<text class="t" x="28" y="76" font-size="27" font-weight="700" fill="#E6EDF3">SatPred</text>
+<text class="t" x="28" y="104" font-size="14" fill="#9FB0C3">Explainable anomaly detection on NASA</text><text class="t" x="28" y="124" font-size="14" fill="#9FB0C3">SMAP/MSL telemetry. Every alert names the</text><text class="t" x="28" y="144" font-size="14" fill="#9FB0C3">channel and when it started.</text>
+<g class="in" style="animation-delay:0.35s"><text class="t" x="28" y="200" font-size="24" font-weight="700" fill="#E6EDF3">80</text><text class="m" x="28" y="219" font-size="11" fill="#5F7089">channels</text></g><g class="in" style="animation-delay:0.53s"><text class="t" x="146" y="200" font-size="24" font-weight="700" fill="#E6EDF3">331</text><text class="m" x="146" y="219" font-size="11" fill="#5F7089">tests passing</text></g><g class="in" style="animation-delay:0.71s"><text class="t" x="264" y="200" font-size="24" font-weight="700" fill="#E6EDF3">97%</text><text class="m" x="264" y="219" font-size="11" fill="#5F7089">coverage</text></g>
+<line x1="28" y1="236" x2="492" y2="236" stroke="#1F2B45"/>
+<text class="m" x="28" y="255" font-size="11.5" fill="#5F7089">PyTorch · scikit-learn · FastAPI · uv · mypy strict</text>
+<g transform="translate(330,24)">
+<text class="m" x="0" y="14" font-size="10" fill="#5F7089">SMAP · channel A-4</text>
+<rect x="88" y="26" width="28" height="100" rx="4" fill="#F0A93B" opacity=".12" class="zone"/>
+<polyline points="0,80 12,76 24,82 36,74 48,79 60,72 72,78 84,75 96,40 104,108 112,70 124,77 136,73 148,79 160,74" fill="none" stroke="#3DD9E3" stroke-width="2" transform="translate(0,6)"/>
+<line x1="0" y1="24" x2="0" y2="130" stroke="#E6EDF3" stroke-opacity=".5" class="scan"/>
+<circle cx="96" cy="46" r="5" fill="#F0A93B" class="ping"/>
+<text class="m alert" x="0" y="148" font-size="10" fill="#F0A93B">⚠ drift on A-4 since t=96</text>
+</g>
+</svg>
